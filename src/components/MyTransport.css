@@ -1,0 +1,132 @@
+.bgContainer {
+  background-image: linear-gradient(to bottom, blue, lightblue);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  display: flex;
+  width: 80vw;
+  justify-content: space-between;
+  align-items: center;
+}
+.titleLogo {
+  color: #ffffff;
+  font-weight: bold;
+  margin-left: 30px;
+}
+.HeaderItems {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.item {
+  margin-right: 20px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: bold;
+}
+.button1 {
+  background-color: yellowgreen;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 7px;
+  border-color: yellowgreen;
+}
+.homeSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: bold;
+}
+.inputCard {
+  background-color: lightgray;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  align-items: center;
+}
+.input1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+}
+.inputSub1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.subSection {
+  color: #ffffff;
+  font-family: roboto;
+  font-size: 25px;
+}
+.optionCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.value {
+  color: #222222;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.search {
+  background-color: green;
+  border-color: green;
+  border-radius: 10px;
+  padding: 10px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .titleLogo {
+    font-size: 13px;
+    margin: 2px;
+  }
+  .item {
+    font-size: 10px;
+    margin: 2px;
+  }
+  .HeaderItems {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  .name {
+    font-size: 15px;
+  }
+  .subSection {
+    font-size: 15px;
+  }
+  .inputCard {
+    display: flex;
+    flex-direction: column;
+  }
+}
